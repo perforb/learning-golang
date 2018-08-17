@@ -7,7 +7,7 @@ build:
 	go build -o hello hello.go
 
 clean:
-	rm -f hello
+	rm -f hello *.exe
 
 .PHONY: \
 	all \
