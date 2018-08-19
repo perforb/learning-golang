@@ -1,10 +1,13 @@
 all: run
 
 run:
-	go run main.go
+	go run *.go
 
 build:
 	go build
+
+test:
+	go test -v ./animals && go test -v
 
 clean:
 	rm -f zoo *.exe
@@ -13,4 +16,5 @@ clean:
 	all \
 	run \
 	build \
+	test \
 	clean
