@@ -21,4 +21,7 @@ func main() {
 		}
 	}
 	fmt.Println("2d:", twoD)
+
+	s := [...]string{"a", "b", "c"}
+	fmt.Println(s)
 }
