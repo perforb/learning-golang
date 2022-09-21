@@ -7,7 +7,7 @@ import (
 
 type Plant struct {
 	XMLName xml.Name `xml:"plant"`
-	Id      int      `xml:"id,attr"`
+	Id      int      `xml:"id,attr"` // attr 追加で <plant id="27"> のようになる
 	Name    string   `xml:"name"`
 	Origin  []string `xml:"origin"`
 }
