@@ -2,8 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	"./animals"
+	"leaning-golang/zoo/animals"
 )
 
 func main() {
