@@ -23,7 +23,7 @@ func headers(w http.ResponseWriter, req *http.Request) {
 	}
 }
 
-// $ curl localhost:8090/headers                                                                 (git)-[master]
+// $ curl localhost:8090/headers
 // User-Agent: curl/7.78.0
 // Accept: */*
 func main() {
